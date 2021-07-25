@@ -14,15 +14,19 @@ body{
     width: 100%;
     border-bottom: 3px solid #0063cc;
 }
-header {
+header{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-nav {
+.headerHijos{
+    display: flex;
+    flex: 1 1 auto;
+}
+nav{
     background-color:lightgray ;
 }
-ul {
+ul{
     display: flex;
     margin-top: 0px;
 }
@@ -30,21 +34,15 @@ li{
     flex: 1 1 auto;
     list-style: none;
 }
-a {
+a{
     text-decoration: none;
 }
-main {
+main{
 }
-footer {
-    background-color: lightgray;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-section {
+section{
     display: flex;
 }
-article {
+article{
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
@@ -54,19 +52,29 @@ article {
     margin-right: 10px;
     align-self: auto;
 }
-.headerHijos{
-    display: flex;
-    flex: 1 1 auto;
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 comentarios{
     border: 2px solid black;
 }
 form{
-    width: 70%;
+    width: 80%;
 }
 input[type=text] {
-    width: 100%;
-    padding: 5px 5px;
-    margin: 4px 0;
+    width: 50%;
+    padding: 3px 3px;
+    margin: 3px 0;
     box-sizing: border-box;
+}
+h3{
+    font-size: 12px;
+    margin: 5px;
+}
+h4{
+    font-size: 10px;
+    margin: 5px;
 }
